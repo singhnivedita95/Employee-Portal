@@ -1,0 +1,14 @@
+.button-block {
+    .cancel-button {
+        color: #000;
+        cursor: pointer;
+    }
+    .add-update-block {
+        color: #FFFFFF;
+        background-color: #000;
+        cursor: pointer;
+        &:hover {
+            background: #A9A9A9;
+        }
+    }
+}

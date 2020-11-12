@@ -1,0 +1,32 @@
+.delete-title {
+    color: #BA2929;
+    font-weight: bold;
+}
+
+.description-block {
+    color: #000;
+    div {
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .description-text {
+        font-size: 12px;
+    }
+}
+
+.button-block {
+    .cancel {
+        color: #000;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .delete {
+        color: #FFFFFF;
+        background-color: #BA2929;
+        cursor: pointer;
+        font-size: 12px;
+        &:hover {
+            background-color: #DF6666;
+        }
+    }
+}
